@@ -1,0 +1,76 @@
+.pillars {
+    background-color: white;
+    background-repeat: no-repeat;
+    text-align: center;
+
+}
+
+.start-button {
+    background-color: #5F00E7;
+    border: 2em;
+    color: white;
+    padding: 1em 2em;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    margin: 20px 0px;
+    cursor: pointer;
+    border-radius: 12px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+.radioalign {
+    vertical-align: left;
+}
+
+.start-button:hover {
+    background-color: #FECD7A;
+    color: white;
+}
+.question1 {
+    text-align: center;
+    
+}
+.question2 {
+    text-align: center;
+    
+}
+.question3 {
+    text-align: center;
+    
+}
+.question4 {
+    text-align: center;
+    
+}
+.question5 {
+    text-align: center;
+    
+}
+
+.question1, .question1 img{
+    height: 75%;
+    width: 75%;
+    text-align: center;
+}
+.question2, .question2 img{
+    height: 75%;
+    width: 75%;
+    text-align: center;
+}
+.question3, .question3 img{
+    height: 75%;
+    width: 75%;
+    text-align: center;
+}
+.question4, .question4 img{
+    height: 75%;
+    width: 75%;
+    text-align: center;
+}
+.question5, .question5 img{
+    height: 75%;
+    width: 75%;
+    text-align: center;
+}
+

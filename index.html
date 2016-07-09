@@ -1,6 +1,7 @@
 <html>
 <head>
 <link rel="stylesheet" href="css/styles.css">
+<script scr ="javascript/quiz.js"></script>
 </head>
 
 <body class="pillars">
@@ -18,25 +19,30 @@
   <br>
   <img src="images/vers.png" alt="Crown" class="vers"><br><br>
   <form action="">
-  <input type="radio" name="1a" value="Charles" class="radioalign"> Charles II
-  <input type="radio" name="1b" value="Louis" class="radioalign"> Louis XIV
-  <input type="radio" name="1c" value="Henry" class="radioalign"> Henry IV
-  <input type="radio" name="1d" value="William" class="radioalign"> William III
+  <input type="radio" name="q1" value="Wrong" class="radioalign"> Charles II
+  <input type="radio" name="q1" value="Correct" class="radioalign"> Louis XIV
+  <input type="radio" name="q1" value="Wrong" class="radioalign"> Henry IV
+  <input type="radio" name="q1" value="Wrong" class="radioalign"> William III
   <br><br>
-  <input type="submit" value="Submit">
+  <input type="submit" onClick = "checkQues" value="Submit"><br><br>
+<textarea rows = "10" cols = "10" name = "resultArea"> </textarea>
 </form>
-<br><br>
+<br><br><br><br>
 
 </section>
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br>
+<br><br><br><br><br>
+<br><br><br><br><br>
 <section class="question2">
  <h1> 2. What is the name of this Palace? </h1>
  <br>
   <img src="images/buck.png" alt="Crown" class="vers"><br><br>
  <form action="">
-  <input type="radio" name="2a" value="StJames" class="radioalign"> St. James
-  <input type="radio" name="2b" value="Windsor" class="radioalign"> Windsor
-  <input type="radio" name="2c" value="Buckingham" class="radioalign"> Buckingham
-  <input type="radio" name="2d" value="Kensington" class="radioalign"> Kensington
+  <input type="radio" name="2a" value="Wrong" class="radioalign"> St. James
+  <input type="radio" name="2b" value="Wrong" class="radioalign"> Windsor
+  <input type="radio" name="2c" value="Correct" class="radioalign"> Buckingham
+  <input type="radio" name="2d" value="Wrong" class="radioalign"> Kensington
   <br><br>
   <input type="submit" value="Submit">
 </form>
@@ -48,10 +54,10 @@
  <br>
   <img src="images/madrid.png" alt="Crown" class="vers"><br><br>
  <form action="">
-  <input type="radio" name="3a" value="Harald" class="radioalign"> Harald V
-  <input type="radio" name="3b" value="Felipe" class="radioalign"> Felipe VI
-  <input type="radio" name="3c" value="Margrethe" class="radioalign"> Margrethe II
-  <input type="radio" name="3d" value="Carl" class="radioalign"> Carl XVI
+  <input type="radio" name="3a" value="Wrong" class="radioalign"> Harald V
+  <input type="radio" name="3b" value="Correct" class="radioalign"> Felipe VI
+  <input type="radio" name="3c" value="Wrong" class="radioalign"> Margrethe II
+  <input type="radio" name="3d" value="Wrong" class="radioalign"> Carl XVI
   <br><br>
   <input type="submit" value="Submit">
 </form>
@@ -62,11 +68,11 @@
  <h1> 4. What is the name of this Palace? </h1>
  <br>
   <img src="images/winter.png" alt="Crown" class="vers"><br><br>
- <form action=""; class="question4">
-  <input type="radio" name="4a" value="Schonbrunn" class="radioalign"> Schonbrunn
-  <input type="radio" name="4b" value="Amlienborg" class="radioalign"> Amalienborg
-  <input type="radio" name="4c" value="Stockholm" class="radioalign"> Stockholm
-  <input type="radio" name="4d" value="Winter" class="radioalign"> Winter
+ <form id="quiz" action=""; class="question4">
+  <input type="radio" name="4a" value="Wrong" class="radioalign"> Schonbrunn
+  <input type="radio" name="4b" value="Wrong" class="radioalign"> Amalienborg
+  <input type="radio" name="4c" value="Wrong" class="radioalign"> Stockholm
+  <input type="radio" name="4d" value="Correct" class="radioalign"> Winter
   <br><br>
   <input type="submit" value="Submit">
 </form>
@@ -78,10 +84,10 @@
  <br>
   <img src="images/hof.png" alt="Crown" class="vers"><br><br>
  <form action="">
-  <input type="radio" name="5a" value="Vienna" class="radioalign"> Vienna, Austria
-  <input type="radio" name="5b" value="Berlin" class="radioalign"> Berlin, Germany
-  <input type="radio" name="5c" value="Paris" class="radioalign"> Paris, France
-  <input type="radio" name="5d" value="Rome" class="radioalign"> Rome, Italy
+  <input type="radio" name="5a" value="Correct" class="radioalign"> Vienna, Austria
+  <input type="radio" name="5b" value="Wrong" class="radioalign"> Berlin, Germany
+  <input type="radio" name="5c" value="Wrong" class="radioalign"> Paris, France
+  <input type="radio" name="5d" value="Wrong" class="radioalign"> Rome, Italy
   <br><br>
   <input type="submit" value="Submit"><br><br>
 </form>
